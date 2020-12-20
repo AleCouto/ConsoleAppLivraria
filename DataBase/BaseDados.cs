@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Livraria
 {
-    public class LivrariaContext : DbContext
+    public class LivrariaContext : DbContext // Database created through the entity framework
     {
         public DbSet<Livro> DLivros { get; set; }
         public DbSet<Autor> DAutores { get; set; }
