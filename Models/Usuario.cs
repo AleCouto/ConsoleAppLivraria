@@ -19,10 +19,7 @@ namespace Livraria
         public DateTime? dataNascimento { get; set; }
         public int bilheteIdentidade { get; set; }
         public int contribuinte { get; set; }
-
-
         public ICollection<Requisicao> Requisicoes { get; set; }
-
         public ICollection<Livro> Livros { get; set; }
 
     }
